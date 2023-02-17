@@ -8,11 +8,10 @@ Console.Clear();
              while (number >= 100)
                 {
                     number = number / 10;
-              
-               
-                result = number % 10;
-            }
-            return result; 
+              result = number % 10;
+                }   
+              return result;   
+                      
         }
 Console.Write("Введите число: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
