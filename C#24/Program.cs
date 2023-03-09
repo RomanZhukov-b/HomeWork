@@ -19,7 +19,11 @@ int columns = int.Parse(ReadLine());
 int[,] inArray = GetArray(rows, columns, 0, 10);
 
 PrintArray(inArray);
+
+
 WriteLine("-----------------");
+
+
 var result = SredArif(inArray);
  for (int j = 0; j < result.Length; j++)
         {
